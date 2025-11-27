@@ -113,8 +113,9 @@
                 <!-- <h2 class="text-2xl font-bold">Bio</h2> -->
                 <h4 class="section-header-red-line">Bio</h4>
                 <p style="text-align: justify; font-size: 16px; line-height: 1.6; padding: 0 0;">
-              Md. Shadman Abid is currently employed as a research assistant at the Nanotechnology Research Center of Sultan Qaboos University (SQU), where he is involved in multiple projects, including vision-informed multi-modal AI framework for active distribution network scheduling, AI-driven power grid path prediction, and deep learning-based geospatial mapping for energy distribution networks. He previously worked at the Sustainable Energy Research Center at SQU, where he developed advanced robust optimization and reinforcement learning-based models for EV charging infrastructure planning, focusing on the techno-economic, environmental, and operational aspects of microgrid management. Shadman additionally served as a part-time lecturer in the Department of Electrical and Electronic Engineering (EEE) at Sonargaon University, Dhaka, Bangladesh. He graduated in 2022 with a B.Sc. degree in EEE from the Islamic University of Technology (IUT), Gazipur, Bangladesh. His research interests span artificial intelligence, machine learning, deep learning, reinforcement learning, and optimization, with applications in sustainable energy systems, intelligent infrastructure planning, and data-driven decision-making. His long-term goal is to advance the development of intelligent cyber-physical systems that combine AI-driven learning methods with large-scale infrastructure applications.  </p>  
-            </div>
+              
+            I am currently employed as a research assistant in the Nanotechnology Research Center at Sultan Qaboos University (SQU), where I work on vision-informed multimodal AI for distribution network scheduling, AI-driven power grid path prediction, and deep learning–based geospatial mapping of electric power grids. I previously worked at SQU’s Sustainable Energy Research Center, developing robust optimization and reinforcement learning models for electric vehicle charging infrastructure and microgrid planning to reduce carbon emissions while improving techno-economic performance. Earlier, I served as a part-time lecturer in the Department of EEE at Sonargaon University in Dhaka. I also worked as a Power Systems Engineer at NKSoft KEMA Corporation, where I conducted optimal allocation studies of circuit reclosers and load switches across Dhaka’s distribution feeders as part of the DPDC Smart Grid Pilot Project. I completed my B.Sc. in Electrical and Electronic Engineering from the Islamic University of Technology (IUT) in 2022. My research interests include computer vision, deep learning, reinforcement learning, and optimization techniques applied to sustainable energy systems.
+            </p>              </div>
         </div>
     </section>
 </main>
@@ -189,16 +190,12 @@
                     </div>
                     <div class="details">
                        <ul>
-                             <li>Developed a multi-modal, multi-agent reinforcement learning-based active distribution network scheduling framework where agents controlling energy storage systems, flexible loads, photovoltaic units, and static VAR compensators learn cooperative operational policies. A hybrid CNN–Vision Transformer (CNN-ViT) encoder was designed to extract solar panel soiling loss features from high-resolution images, which were then fused with real-time electrical grid measurements to form a perception-control feedback loop for informed scheduling decisions.</li>
-    
-    <li>Defined primary objectives to simultaneously reduce operational costs, minimize network power losses, cut carbon emissions, and enhance grid flexibility, thereby ensuring resilient and sustainable operation of renewable-rich distribution systems.</li>
-    
- <li>Implemented a Graph-Attentive Actor–Critic network in <a href="https://pytorch.org/" target="_blank"><b>PyTorch 2.6</b></a>, trained on an NVIDIA Tesla A100-SXM4 GPU. The framework was validated using the <a href="https://deep-solar-eye.github.io/" target="_blank"><b>DeepSolarEye dataset</b></a> (44K annotated solar images) for soiling regression and applied to the realistic 2289-bus Nizwa distribution network in Oman. The system incorporated a 400 MW photovoltaic plant, 300 MWh energy storage system, 20 MVAR static VAR compensator, and six flexible water-pumping station loads, collected from <a href="https://mzec.nama.om/en-us/Pages/Electricity-Continues.aspx" target="_blank"><b>Mazoon Electricity Company (MZEC)</b></a>.</li>
+                             <li>Developed a multi-modal, multi-agent reinforcement learning-based active distribution network scheduling framework where agents controlling energy storage systems, flexible loads, photovoltaic units, and static VAR compensators learn cooperative operational policies. </li>
+                             <li> Built a hybrid CNN–Vision Transformer (CNN-ViT) encoder was designed to extract solar panel soiling loss features from high-resolution images, which were then fused with real-time electrical grid measurements to form a perception-control feedback loop for informed scheduling decisions.</li>
+   
+ <li>Developed the proposed architecture in <a href="https://pytorch.org/" target="_blank"><b>PyTorch 2.6</b></a>. The framework was validated using the <a href="https://deep-solar-eye.github.io/" target="_blank"><b>DeepSolarEye dataset</b></a> (44K annotated solar images) for soiling regression and applied to the realistic 2289-bus Nizwa distribution network in Oman. The system incorporated a 400 MW photovoltaic plant, 300 MWh energy storage system, 20 MVAR static VAR compensator, and six flexible water-pumping station loads, collected from <a href="https://mzec.nama.om/en-us/Pages/Electricity-Continues.aspx" target="_blank"><b>Mazoon Electricity Company (MZEC)</b></a>.</li>
           
-    <!-- <li>Achieved state-of-the-art performance in both perception and control tasks. The standalone CNN–ViT encoder attained R² = 0.91 for solar soiling regression, while the proposed MARL framework reduced operational costs by 7.1% and power losses by 19.2% compared to traditional baselines, improved renewable-to-load alignment by ~15%, and lowered carbon emissions.</li> -->
-    
-    <!-- <li>Contributed to sustainable power system operation by aligning the proposed framework with national and global decarbonization goals. The methodology enhances renewable energy integration, reduces carbon emissions, and improves the long-term resilience of large-scale distribution networks.</li> -->
-
+   
                         
                         </div>
                     <div class="links">
@@ -225,16 +222,10 @@
                                 </div>
                                 <div class="details">
                                     <ul>
-                                        <li>Proposed a residual Graph Convolutional Network (GCN) with a hierarchical attention mechanism for geospatial mapping of large-scale power grids, addressing challenges of data sparsity, scalability, and complex interdependencies. The framework integrates residual connections with local, global, and co-attention layers, enabling efficient representation of both micro-level and macro-level grid patterns for classification and regression tasks.</li>
-    
-    <li>Set key objectives to accurately predict the geographic locations and connectivity of critical infrastructure components—such as poles, electricity service points, and substations—while reducing computational burden and enhancing scalability. The model aims to advance GIS-based power system mapping for reliable planning, operation, and sustainable infrastructure development.</li>
-    
-    <li>Implemented the proposed architecture in <a href="https://pytorch.org/" target="_blank"><b>PyTorch</b></a> with <b>Torch Geometric 2.6.1</b>, trained using an NVIDIA Tesla A100-SXM4 GPU. The study utilized the <a href="https://mzec.nama.om/en-us/Pages/Electricity-Continues.aspx" target="_blank"><b>Mazoon Electricity Company (MZEC)</b></a> dataset comprising over 500K poles, 385K service points, and 23K substations across four Omani governorates, and the <a href="https://data.humdata.org/dataset/electricaldistributiongridmaps" target="_blank"><b>Nigerian transmission grid dataset</b></a> containing 56K components. All processed datasets were made publicly available via <a href="https://doi.org/10.5281/zenodo.14873694" target="_blank"><b>Zenodo</b></a> for open research access.</li>
-    
-    <!-- <li>Achieved superior performance in both link prediction and coordinate regression. The model attained testing accuracies of 95.88% (Oman) and 92.98% (Nigeria), with F1 scores of 0.9603 and 0.9341, and near-perfect regression results (R² = 0.9993 for Oman, 0.9960 for Nigeria). Training time was reduced by over 50% compared to standard GCNs, with convergence achieved in 16–38 epochs versus 48–151 for baselines.</li> -->
-    
-    <!-- <li>Advanced sustainable energy system management by demonstrating how accurate, scalable GIS-based grid mapping can support renewable energy integration, infrastructure planning, and resilience—contributing directly to national and global decarbonization and electrification goals.</li> -->
 
+    <li>Proposed a residual Graph Convolutional Network (GCN) with a hierarchical attention mechanism for geospatial mapping of large-scale power grids. The objectives were to predict the geographic locations and connectivity of infrastructure components—such as poles, electricity service points, and substations—while reducing computational burden.</li> 
+    <li>Implemented the proposed architecture in <a href="https://pytorch.org/" target="_blank"><b>PyTorch</b></a> with <b>Torch Geometric 2.6.1</b>. The study utilized the <a href="https://mzec.nama.om/en-us/Pages/Electricity-Continues.aspx" target="_blank"><b>Mazoon Electricity Company (MZEC)</b></a> dataset, comprising over 500K poles, 385K service points, and 23K substations across four Omani governorates, as well as the <a href="https://data.humdata.org/dataset/electricaldistributiongridmaps" target="_blank"><b>Nigerian transmission grid dataset</b></a> containing 56K components. All processed datasets were made publicly available via <a href="https://doi.org/10.5281/zenodo.14873694" target="_blank"><b>Zenodo</b></a>.</li> 
+    <li>Achieved testing accuracies of 95.88% (Oman) and 92.98% (Nigeria), along with near-perfect regression performance (R² = 0.9993 for Oman, 0.9960 for Nigeria). Training time was reduced by 50% compared to standard GCNs, with convergence achieved in 16–38 epochs versus 48–151 epochs for the baselines.</li>
                                         
                                     </ul>
                                 </div>
@@ -261,15 +252,12 @@
                     
                         <div class="details">
                         <ul>
-    <li>Introduced a transformer-based deep learning approach that formulates power grid path prediction as a multi-output regression task rather than a conventional link-prediction classification. The model predicts continuous geographical coordinates of overhead conductor routes represented as multi-line strings, thereby reconstructing the full spatial trajectory of distribution lines.</li>
+    <li>Introduced an AI-based framework that formulates power grid path prediction as a multi-output regression task rather than a conventional classification problem. Our model enables continuous prediction of multi-line strings through the reconstruction of complete spatial trajectories.</li>
+   
     
-    <li>Defined the objectives as improving geospatial accuracy of conductor path predictions, enhancing grid resilience by enabling precise mapping of infrastructure, and reducing uncertainty in route estimation. This novel regression-based formulation directly supports utilities in addressing the lack of detailed GIS databases in developing regions.</li>
+    <li>Developed a hybrid Transformer–LSTM model in <a href="https://www.tensorflow.org/" target="_blank"><b>TensorFlow 2.19.0</b></a> with <a href="https://keras.io/" target="_blank"><b>Keras 3.10.0</b></a> that fuses sequential UTM coordinates with structured contextual features, including district, governorate, spatial clusters, voltage class, straightness, and segment distance.</li> 
     
-    <li>Designed and trained a transformer encoder architecture with multi-head self-attention and residual connections, complemented by feed-forward networks with <i>GeLU</i> activation and L2 regularization for stable learning. Implementation was carried out in <a href="https://www.tensorflow.org/" target="_blank"><b>TensorFlow 2.18.0</b></a> with <a href="https://keras.io/" target="_blank"><b>Keras 3.10.0</b></a>, ensuring efficient handling of high-dimensional sequential coordinate data.</li>
-    
-    <!-- <li>Conducted extensive validation on a large-scale dataset of 71,710 overhead conductors from the <a href="https://mzec.nama.om/Pages/index.aspx" target="_blank"><b>Mazoon Electricity Company (MZEC)</b></a> grid in Oman, spanning six governorates. </li> -->
-    
-    <!-- <li>Contributed to the advancement of sustainable grid planning by establishing a data-driven regression paradigm for reconstructing incomplete or uncertain power line maps. The proposed approach enables accurate infrastructure digitization, facilitates renewable energy integration, and enhances long-term grid reliability and resilience.</li> -->
+<li>Performed ablation and SHAP-based explainability analyses. Our results demonstrate that district and governorate embeddings are the dominant contributors, while voltage, straightness, and distance offer negligible predictive value. The framework was validated on a large-scale dataset of 71K overhead conductor segments from the <a href="https://mzec.nama.om/en-us/Pages/Electricity-Continues.aspx" target="_blank"><b>Mazoon Electricity Company (MZEC)</b></a>) grid in Oman.</li>
 </ul>
 
                             </div>
@@ -281,38 +269,9 @@
                  
             </div>
         </div>   
-            
-                        <div class="publication" data-type="published">
-                            <div class="graphical-abstract-container">
-                                <img src="assets/img/GR_RCNN-LSTM.jpg" alt="Graphical Abstract" class="graphical-abstract-image">
-                            </div>
-                            <div class="publication-content">
-                                <div class="text-content">
-                                    <div class="title">
-                                        <h3><strong>Robust Deep Learning Model for Spatiotemporal Forecasting of Renewable Energy Sources</strong></h3>
-                                    </div>
-                                    <div class="details">
-                                       <ul>
-    <li>Developed a robust spatiotemporal forecasting framework for renewable energy generation, termed as the CNN–BiLSTM with Spatiotemporal Attention (CNN-BiLSTM-STA) model. The framework integrates CNNs for spatial feature extraction with bidirectional LSTM layers for temporal sequence learning, while a novel attention mechanism adaptively emphasizes critical spatial regions and time steps to improve multi-horizon forecasting of photovoltaic (PV) and wind power (WP) outputs.</li>
-    
-    <li>Defined primary objectives to enhance the accuracy and robustness of renewable energy forecasts by (i) jointly predicting PV and WP production across multiple plants and time horizons, (ii) addressing challenges of high-dimensional spatiotemporal data without requiring site-specific models or heavy preprocessing, and (iii) ensuring resilience against data contamination scenarios such as missing values, Gaussian noise, outliers, and mixed disturbances.</li>
-    
-   <li>Implemented the proposed spatiotemporal forecasting framework in <a href="https://www.tensorflow.org/" target="_blank"><b>TensorFlow 2.18.0</b></a> with <a href="https://keras.io/" target="_blank"><b>Keras 3.8.0</b></a>. The model was trained using an NVIDIA Tesla A100-SXM4 GPU, with extensive preprocessing, sequence construction, and data augmentation applied to high-resolution solar and wind datasets. Processed datasets were made publicly available via <a href="https://doi.org/10.5281/zenodo.14903570" target="_blank"><b>Zenodo</b></a> for open research access.</li>
 
-    <!-- <li>Achieved superior forecasting performance across multiple horizons (5, 15, 30, 45, and 60 minutes). For PV forecasting, the CNN-BiLSTM-STA reduced RMSE by 3.8–25.7% and MAE by 3.8–28.1% compared to baseline models. For WP forecasting, the model delivered 3.9–18.0% lower RMSE and 4.2–32.6% lower MAE than competing approaches. The model also demonstrated strong robustness under data contamination, maintaining low errors even with up to 50% missing or noisy data.</li> -->
-    
-    <!-- <li>Supported sustainable power system planning by enabling accurate, contamination-resilient, and scalable spatiotemporal forecasts for both solar and wind energy. The open-sourced datasets and framework facilitate reproducible research and provide decision-makers with tools to improve renewable integration, reduce reserve requirements, and advance global decarbonization and energy resilience goals.</li> -->
-</ul> </div>
-                                    <div class="links">
-                                        <!-- <a href="#" data-toggle="modal" data-target="#modal1">View Summary/Abstract</a> -->
-                                          <a href="https://doi.org/10.1016/j.ecmx.2025.100919"class="see-more-btn">DOI</a>
-                  </div>
-                                </div>
-                             
-                            </div>
-                        </div>
 
-                  <div id="aab1" class="publication" data-type="under-review,feature">
+          <div id="aab1" class="publication" data-type="under-review,feature">
                    <div class="graphical-abstract-container">
                 <img src="assets/img/GA_NAS.png" alt="Graphical Abstract" class="graphical-abstract-image">
             </div>
@@ -323,13 +282,11 @@
                    
                                     <div class="details">
                                        <ul>
-                            <li> Proposed the first image-only regression framework for predicting soiling-induced power loss in solar panels using a reinforcement learning–driven neural architecture search (NAS) approach, eliminating the need for auxiliary time-series environmental data. </li>
+                            <li> Proposed the first image-only regression framework for predicting soiling-induced power loss in solar panels using a reinforcement learning–driven neural architecture search (NAS) approach. </li>
                            
-                         <li>Evaluated the proposed NAS framework through two case studies: continuous regression of soiling-induced power loss and multi-class classification of soiling severity levels</li>
-                       <li>Employed the <a href="https://deep-solar-eye.github.io/" target="_blank"><b>DeepSolarEye dataset</b></a> dataset with 44K+ annotated solar panel images; implemented a robust preprocessing pipeline to provide consistent inputs for 
-                        CNN-based regression and classification tasks. Conducted extensive experiments on <a href="https://pytorch.org/" target="_blank"><b>PyTorch 2.8.0+cu126</b></a>, benchmarking against state-of-the-art NAS methods.</li>
-                    
-                       <li> The work is currently under review.</li>  
+                         <li>Evaluated the proposed NAS framework through two case studies: continuous regression of soiling-induced power loss and multi-class classification of soiling severity levels.</li>
+                       <li>Developed the framework in <a href="https://pytorch.org/" target="_blank"><b>PyTorch 2.8.0+cu126</b></a> and utilized the <a href="https://deep-solar-eye.github.io/" target="_blank"><b>DeepSolarEye</b></a> dataset comprising over 44K annotated solar-panel images for experimental validation. </li>
+                       <!-- <li> The work is currently under review.</li>   -->
                         </ul> </div>
 
 
@@ -343,6 +300,33 @@
                             </div>
                         </div>       
             
+            
+                        <div class="publication" data-type="published">
+                            <div class="graphical-abstract-container">
+                                <img src="assets/img/GR_RCNN-LSTM.jpg" alt="Graphical Abstract" class="graphical-abstract-image">
+                            </div>
+                            <div class="publication-content">
+                                <div class="text-content">
+                                    <div class="title">
+                                        <h3><strong>Robust Deep Learning Model for Spatiotemporal Forecasting of Renewable Energy Sources</strong></h3>
+                                    </div>
+                                    <div class="details">
+                                       <ul>
+   <li>Developed a spatiotemporal forecasting framework for renewable energy generation that integrates spatial feature extraction with temporal sequence learning to improve multi-horizon prediction of photovoltaic (PV) and wind power outputs.</li> 
+<li>Defined key objectives to enhance forecasting robustness by jointly predicting PV and WP generation across multiple plants and time horizons, reducing reliance on site-specific models, and ensuring resilience to data contamination issues such as missing values, noise, and outliers.</li>
+ <li>Implemented the framework in <a href="https://www.tensorflow.org/" target="_blank"><b>TensorFlow 2.18.0</b></a> with <a href="https://keras.io/" target="_blank"><b>Keras 3.8.0</b></a>. All processed solar and wind datasets were made publicly available through <a href="https://doi.org/10.5281/zenodo.14903570" target="_blank"><b>Zenodo</b></a> to support open research.</li>
+
+   </ul> </div>
+                                    <div class="links">
+                                        <!-- <a href="#" data-toggle="modal" data-target="#modal1">View Summary/Abstract</a> -->
+                                          <a href="https://doi.org/10.1016/j.ecmx.2025.100919"class="see-more-btn">DOI</a>
+                  </div>
+                                </div>
+                             
+                            </div>
+                        </div>
+
+                
                         
             
                         <a href="project.html" class="see-more-btn">View All Projects</a>
