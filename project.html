@@ -67,20 +67,20 @@
             </div>
             <div class="publication-content">
                 <div class="text-content">
-                    <!-- <h3><strong> Md. Shadman Abid</strong></h3> -->
-                    <div class="title"> <h3><strong>Vision-Informed Multi-Modal Multi-Agent Reinforcement Learning for Active Distribution Network Scheduling</strong></div>
+                    
+                    <div class="title"> <h3><strong>Vision-Informed Multi-Modal Multi-Agent Reinforcement Learning for Active Distribution Network Scheduling</strong></h3></div>
                     <div class="details">
                         <ul>
-                                       <li>Developed a multi-modal, multi-agent reinforcement learning-based active distribution network scheduling framework where agents controlling energy storage systems, flexible loads, photovoltaic units, and static VAR compensators learn cooperative operational policies. </li>
-                             <li> Built a hybrid CNN–Vision Transformer (CNN-ViT) encoder was designed to extract solar panel soiling loss features from high-resolution images, which were then fused with real-time electrical grid measurements to form a perception-control feedback loop for informed scheduling decisions.</li>
-   
- <li>Developed the proposed architecture in <a href="https://pytorch.org/" target="_blank"><b>PyTorch 2.6</b></a>. The framework was validated using the <a href="https://deep-solar-eye.github.io/" target="_blank"><b>DeepSolarEye dataset</b></a> (44K annotated solar images) for soiling regression and applied to the realistic 2289-bus Nizwa distribution network in Oman. The system incorporated a 400 MW photovoltaic plant, 300 MWh energy storage system, 20 MVAR static VAR compensator, and six flexible water-pumping station loads, collected from <a href="https://mzec.nama.om/en-us/Pages/Electricity-Continues.aspx" target="_blank"><b>Mazoon Electricity Company (MZEC)</b></a>.</li>
-          
+   <li>Introduced the first vision-aware framework for distribution-network scheduling by integrating image-derived soiling features into the cooperative control of solar plants, energy-storage systems, static-var compensators, and flexible water-pumping loads.</li>
+<li>Built a CNN–ViT encoder for real-time generation loss estimation and fused it with grid measurements to enable a perception–control scheduling loop.</li>
+ <li>Implemented the architecture in <a href="https://pytorch.org/" target="_blank"><b>PyTorch 2.6</b></a>. The framework was validated using the <a href="https://deep-solar-eye.github.io/" target="_blank"><b>DeepSolarEye dataset</b></a> (44K annotated solar images) for soiling regression and applied to the realistic 2289-bus Nizwa grid in Oman, collected from <a href="https://mzec.nama.om/en-us/Pages/Electricity-Continues.aspx" target="_blank"><b>Mazoon Electricity Company (MZEC)</b></a>.</li>
+   <li>Achieved R² = 0.91; reduced operational costs by 7.1%; lowered losses by 19.2%; decreased carbon emissions; and improved renewable-to-load alignment by 15%.</li>
+     
    
 </div>
                     <div class="links">
                         <!-- <a href="#" data-toggle="modal" data-target="#modal1">View Summary/Abstract</a> -->
-                        <a href="https://doi.org/10.1016/j.epsr.2025.112091"class="see-more-btn">DOI</a>
+                        <a href="https://doi.org/10.1016/j.epsr.2025.112091" class="see-more-btn">DOI</a>
                  </div>
                 </div>
                 <!-- <div class="container-image"> -->
@@ -101,14 +101,14 @@
                     </div>
                     <div class="details">
                                     <ul>
-                              <li>Proposed a residual Graph Convolutional Network (GCN) with a hierarchical attention mechanism for geospatial mapping of large-scale power grids. The objectives were to predict the geographic locations and connectivity of infrastructure components—such as poles, electricity service points, and substations—while reducing computational burden.</li> 
-    <li>Implemented the proposed architecture in <a href="https://pytorch.org/" target="_blank"><b>PyTorch</b></a> with <b>Torch Geometric 2.6.1</b>. The study utilized the <a href="https://mzec.nama.om/en-us/Pages/Electricity-Continues.aspx" target="_blank"><b>Mazoon Electricity Company (MZEC)</b></a> dataset, comprising over 500K poles, 385K service points, and 23K substations across four Omani governorates, as well as the <a href="https://data.humdata.org/dataset/electricaldistributiongridmaps" target="_blank"><b>Nigerian transmission grid dataset</b></a> containing 56K components. All processed datasets were made publicly available via <a href="https://doi.org/10.5281/zenodo.14873694" target="_blank"><b>Zenodo</b></a>.</li> 
+   <li>Proposed a residual graph-convolutional-network framework capable of predicting geographic locations and connectivity of power-grid infrastructure at reduced computational cost.</li>
+   <li>Implemented the model in <a href="https://pytorch.org/" target="_blank"><b>PyTorch</b></a> with <b>Torch Geometric 2.6.1</b>. The study utilized the <a href="https://mzec.nama.om/en-us/Pages/Electricity-Continues.aspx" target="_blank"><b>Mazoon Electricity Company (MZEC)</b></a> dataset, comprising over 500K poles, 385K service points, and 23K substations across four governorates, as well as the <a href="https://data.humdata.org/dataset/electricaldistributiongridmaps" target="_blank"><b>Nigerian transmission grid dataset</b></a> containing 56K components. All processed datasets were made publicly available via <a href="https://doi.org/10.5281/zenodo.14873694" target="_blank"><b>Zenodo</b></a>.</li> 
     <li>Achieved testing accuracies of 95.88% (Oman) and 92.98% (Nigeria), along with near-perfect regression performance (R² = 0.9993 for Oman, 0.9960 for Nigeria). Training time was reduced by 50% compared to standard GCNs, with convergence achieved in 16–38 epochs versus 48–151 epochs for the baselines.</li>
-                                    
+                                            
                                     </ul>
                                 </div>
                     <div class="links">
-                         <a href="https://doi.org/10.1016/j.egyai.2025.100486"class="see-more-btn">DOI</a>
+                         <a href="https://doi.org/10.1016/j.egyai.2025.100486" class="see-more-btn">DOI</a>
                  
                         <!-- <a href="publications.html#under-review" class="see-more-btn">See Under Review Publications</a> -->
                         <!-- <a href="publications.html#feature" class="see-more-btn">See Featured Publications</a> -->
@@ -130,36 +130,6 @@
 
         
         
-        <div id="aab2" class="publication" data-type="published">
-            <div class="graphical-abstract-container">
-                <img src="assets/img/GR_RCNN-LSTM.jpg" alt="Graphical Abstract" class="graphical-abstract-image">
-            </div>
-            <div class="publication-content">
-                <div class="text-content">
-                    <div class="title">
-                        <h3><strong>Robust Deep Learning Model for Spatiotemporal Forecasting of Renewable Energy Sources</strong></h3>
-                    </div>
-                    <div class="details">
-                        <ul>
-    <li>Developed a spatiotemporal forecasting framework for renewable energy generation that integrates spatial feature extraction with temporal sequence learning to improve multi-horizon prediction of photovoltaic (PV) and wind power outputs.</li> 
-<li>Defined key objectives to enhance forecasting robustness by jointly predicting PV and WP generation across multiple plants and time horizons, reducing reliance on site-specific models, and ensuring resilience to data contamination issues such as missing values, noise, and outliers.</li>
- <li>Implemented the framework in <a href="https://www.tensorflow.org/" target="_blank"><b>TensorFlow 2.18.0</b></a> with <a href="https://keras.io/" target="_blank"><b>Keras 3.8.0</b></a>. All processed solar and wind datasets were made publicly available through <a href="https://doi.org/10.5281/zenodo.14903570" target="_blank"><b>Zenodo</b></a> to support open research.</li>
-
-    <!-- <li>Achieved superior forecasting performance across multiple horizons (5, 15, 30, 45, and 60 minutes). For PV forecasting, the CNN-BiLSTM-STA reduced RMSE by 3.8–25.7% and MAE by 3.8–28.1% compared to baseline models. For WP forecasting, the model delivered 3.9–18.0% lower RMSE and 4.2–32.6% lower MAE than competing approaches. The model also demonstrated strong robustness under data contamination, maintaining low errors even with up to 50% missing or noisy data.</li> -->
-    
-    <!-- <li>Supported sustainable power system planning by enabling accurate, contamination-resilient, and scalable spatiotemporal forecasts for both solar and wind energy. The open-sourced datasets and framework facilitate reproducible research and provide decision-makers with tools to improve renewable integration, reduce reserve requirements, and advance global decarbonization and energy resilience goals.</li> -->
-</ul>
-
-                    </div>
-                    <div class="links">
-                        <!-- <a href="publications.html#under-review" class="see-more-btn">See Under Review Publications</a>
-                        <a href="publications.html#feature" class="see-more-btn">See Featured Publications</a> -->
-                     <a href="https://doi.org/10.1016/j.ecmx.2025.100919"class="see-more-btn">DOI</a>
-                 
-                    </div>
-                </div>
-            </div>
-        </div>
 
 
 
@@ -173,16 +143,14 @@
             
                 <div class="text-content">
                      <!-- <h3><strong> Md. Shadman Abid</strong></h3>  -->
-                     <div class="title"> <h3><strong>AI-Driven Power Grid Path Prediction for Large-Scale Distribution Networks</strong></div>
+                     <div class="title"> <h3><strong>AI-Driven Power Grid Path Prediction for Large-Scale Distribution Networks</strong></h3></div>
                     <div class="details">
                         <ul>
-      <li>Introduced an AI-based framework that formulates power grid path prediction as a multi-output regression task rather than a conventional classification problem. Our model enables continuous prediction of multi-line strings through the reconstruction of complete spatial trajectories.</li>
-   
+       <li>Developed the first regression-based framework that formulates path prediction as a spatial-trajectory prediction problem.</li>
     
-    <li>Developed a hybrid Transformer–LSTM model in <a href="https://www.tensorflow.org/" target="_blank"><b>TensorFlow 2.19.0</b></a> with <a href="https://keras.io/" target="_blank"><b>Keras 3.10.0</b></a> that fuses sequential UTM coordinates with structured contextual features, including district, governorate, spatial clusters, voltage class, straightness, and segment distance.</li> 
+    <li>Developed the model in <a href="https://www.tensorflow.org/" target="_blank"><b>TensorFlow 2.19.0</b></a> with <a href="https://keras.io/" target="_blank"><b>Keras 3.10.0</b></a> that fuses sequential UTM coordinates with structured contextual features, including district, governorate, spatial clusters, voltage class, straightness, and cable length.</li> 
     
-<li>Performed ablation and SHAP-based explainability analyses. Our results demonstrate that district and governorate embeddings are the dominant contributors, while voltage, straightness, and distance offer negligible predictive value. The framework was validated on a large-scale dataset of 71K overhead conductor segments from the <a href="https://mzec.nama.om/en-us/Pages/Electricity-Continues.aspx" target="_blank"><b>Mazoon Electricity Company (MZEC)</b></a>) grid in Oman.</li>
-
+<li>Conducted ablation and SHAP-based explainability analyses. Our results demonstrate that district and governorate embeddings are the dominant contributors, while voltage class, cable length, spatial cluster, and straightness offer negligible predictive value. The framework was validated on a large-scale dataset of 71K overhead conductor segments from the <a href="https://mzec.nama.om/en-us/Pages/Electricity-Continues.aspx" target="_blank"><b>Mazoon Electricity Company (MZEC)</b></a> grid in Oman.</li>
     <!-- <li>Contributed to the advancement of sustainable grid planning by establishing a data-driven regression paradigm for reconstructing incomplete or uncertain power line maps. The proposed approach enables accurate infrastructure digitization, facilitates renewable energy integration, and enhances long-term grid reliability and resilience.</li> -->
 </ul>
 
@@ -205,15 +173,15 @@
             </div>
             <div class="publication-content">
                 <div class="text-content">
-                    <!-- <h3><strong> Md. Shadman Abid</strong></h3> -->
-                    <div class="title"> <h3><strong>Neural Architecture Search via Reinforcement Learning for Image-based Solar Panel Soiling Loss Prediction</strong></div>
+                    
+                    <div class="title"> <h3><strong>Neural Architecture Search via Reinforcement Learning for Image-based Solar Panel Soiling Loss Prediction</strong></h3></div>
                     <div class="details">
                         <ul>
-                               <li> Proposed the first image-only regression framework for predicting soiling-induced power loss in solar panels using a reinforcement learning–driven neural architecture search (NAS) approach. </li>
+                            <li> Proposed the first image-only regression framework for predicting soiling-induced power loss in solar panels using a reinforcement learning–driven neural architecture search (NAS) approach. </li>
                            
-                         <li>Evaluated the proposed NAS framework through two case studies: continuous regression of soiling-induced power loss and multi-class classification of soiling severity levels.</li>
-                       <li>Developed the framework in <a href="https://pytorch.org/" target="_blank"><b>PyTorch 2.8.0+cu126</b></a> and utilized the <a href="https://deep-solar-eye.github.io/" target="_blank"><b>DeepSolarEye</b></a> dataset comprising over 44K annotated solar-panel images for experimental validation. </li>
-                         
+                         <li>Evaluated the proposed NAS framework through two case studies: regression of soiling-induced power loss and multi-class classification of soiling severity levels.</li>
+                       <li>Developed the framework in <a href="https://pytorch.org/" target="_blank"><b>PyTorch 2.8.0+cu126</b></a> and utilized the <a href="https://deep-solar-eye.github.io/" target="_blank"><b>DeepSolarEye</b></a> dataset comprising 44K+ annotated solar-panel images for experimental validation. </li>
+                     
                         </ul>
                     </div>
                     <div class="links">
@@ -227,6 +195,38 @@
             </div>
         </div>
 
+                <div id="aab2" class="publication" data-type="published">
+            <div class="graphical-abstract-container">
+                <img src="assets/img/GR_RCNN-LSTM.jpg" alt="Graphical Abstract" class="graphical-abstract-image">
+            </div>
+            <div class="publication-content">
+                <div class="text-content">
+                    <div class="title">
+                        <h3><strong>Robust Deep Learning Model for Spatiotemporal Forecasting of Renewable Energy Sources</strong></h3>
+                    </div>
+                    <div class="details">
+                        <ul>
+   <li>Developed a spatiotemporal forecasting framework that fuses spatial feature extraction with temporal sequence learning for multi-horizon solar PV and wind power (WP) prediction.</li> 
+
+ <li>Implemented the framework in <a href="https://www.tensorflow.org/" target="_blank"><b>TensorFlow 2.18.0</b></a> with <a href="https://keras.io/" target="_blank"><b>Keras 3.8.0</b></a>. All processed solar and wind datasets were made publicly available through <a href="https://doi.org/10.5281/zenodo.14903570" target="_blank"><b>Zenodo</b></a> to support open research.</li>
+<li>Achieved RMSE reductions of 3.8–25.7% for PV and 3.9–18.0% for WP (MAE reductions: 3.8–28.1% for PV and 4.2–32.6% for WP) relative to baselines, with strong robustness under 50% missing or noisy data.</li>
+
+    <!-- <li>Achieved superior forecasting performance across multiple horizons (5, 15, 30, 45, and 60 minutes). For PV forecasting, the CNN-BiLSTM-STA reduced RMSE by 3.8–25.7% and MAE by 3.8–28.1% compared to baseline models. For WP forecasting, the model delivered 3.9–18.0% lower RMSE and 4.2–32.6% lower MAE than competing approaches. The model also demonstrated strong robustness under data contamination, maintaining low errors even with up to 50% missing or noisy data.</li> -->
+    
+    <!-- <li>Supported sustainable power system planning by enabling accurate, contamination-resilient, and scalable spatiotemporal forecasts for both solar and wind energy. The open-sourced datasets and framework facilitate reproducible research and provide decision-makers with tools to improve renewable integration, reduce reserve requirements, and advance global decarbonization and energy resilience goals.</li> -->
+</ul>
+
+                    </div>
+                    <div class="links">
+                        <!-- <a href="publications.html#under-review" class="see-more-btn">See Under Review Publications</a>
+                        <a href="publications.html#feature" class="see-more-btn">See Featured Publications</a> -->
+                     <a href="https://doi.org/10.1016/j.ecmx.2025.100919" class="see-more-btn">DOI</a>
+                 
+                    </div>
+                </div>
+            </div>
+        </div>
+
  
            <div id="aab9" class="publication" data-type="published,feature">
             
@@ -235,16 +235,16 @@
             </div>
             <div class="publication-content">
                 <div class="text-content">
-                    <!-- <h3><strong> Md. Shadman Abid</strong></h3> -->
-                    <div class="title"> <h3><strong>Microgrid Resource Planning Framework Using Multi-Agent Deep Reinforcement Learning Approach</strong></div>
+                    
+                    <div class="title"> <h3><strong>Microgrid Resource Planning Framework Using Multi-Agent Deep Reinforcement Learning Approach</strong></h3></div>
                     <div class="details">
                         <ul>
-    <li>Proposed a novel multi-objective optimization–based multi-agent deep reinforcement learning (MOO-MADRL) framework, termed the MOAVOA-MADDPG model, for comprehensive microgrid resource planning. The framework jointly allocates photovoltaic (PV) units, wind turbines (WTs), battery energy storage systems (BESSs), and electric vehicle charging stations (EVCSs), while capturing the stochastic dynamics of renewable generation and uncertain EV commuting behavior.</li>
-    
-    <li>Defined multi-dimensional objectives: minimizing investment cost, operational cost, and emission cost, while simultaneously maximizing voltage stability index (VSI) and the average state of charge (SOC) of EV fleets. Moreover, the proposed framework incorporates renewable and load uncertainties using Weibull distributions for wind speed, Beta distributions for solar irradiance, and normal distributions for load demand.</li>
-    
-   <li>Developed and implemented the hybrid Multi-objective Artificial Vultures Optimization Algorithm (MOAVOA) in <a href="https://www.mathworks.com/products/matlab.html" target="_blank"><b>MATLAB R2021b</b></a>, coupled with a Multi-agent Deep Deterministic Policy Gradient (MADDPG) model built in <a href="https://www.tensorflow.org/" target="_blank"><b>TensorFlow</b></a> with <a href="https://keras.io/" target="_blank"><b>Keras</b></a>. This design enables a cooperative planning paradigm under a centralized training and decentralized execution (CTDE) framework. Case studies were conducted on the modified IEEE 33-bus system, two practical 33-bus feeders in Bangladesh, and the Turkish 141-bus network using real-world meteorological and EV commuting data.</li>
+<li>Proposed a comprehensive microgrid resource planning framework that concurrently integrates EV charging scheduling and allocates solar farms, wind plants, battery energy storage systems, and EV charging stations.
+</li>
+  
+  <li> Defined multi-dimensional objectives: minimizing investment–operational and emission costs while maximizing the voltage stability index and the average state of charge of EV fleets.</li>
 
+    <li>Developed the optimization framework in <a href='https://www.mathworks.com/products/matlab.html' target='_blank'><b>MATLAB R2021b</b></a>, coupled with a multi-agent deep reinforcement learning–based EV charging scheduling model built in <a href='https://www.tensorflow.org/' target='_blank'><b>TensorFlow</b></a> with <a href='https://keras.io/' target='_blank'><b>Keras</b></a>. Case studies were conducted on the modified IEEE 33-bus system, two practical 33-bus feeders in Bangladesh, and the Turkish 141-bus network using real-world meteorological and EV commuting data. </li>
     
     <!-- <li>Advanced sustainable energy system planning by integrating optimization with cooperative reinforcement learning, providing a scalable and resilient solution for large-scale renewable and EV infrastructure deployment.</li> -->
 </ul>
@@ -256,7 +256,7 @@
 </div>
                     <div class="links">
                         <!-- <a href="#" data-toggle="modal" data-target="#modal1">View Publication</a>  -->
-                        <a href="https://doi.org/10.1016/j.apenergy.2023.122029"class="see-more-btn">DOI</a>
+                        <a href="https://doi.org/10.1016/j.apenergy.2023.122029" class="see-more-btn">DOI</a>
                  
                     </div>
                 </div>
@@ -273,14 +273,17 @@
             </div>
             <div class="publication-content">
                 <div class="text-content">
-                    <!-- <h3><strong> Md. Shadman Abid</strong></h3> -->
-                    <div class="title"> <h3><strong>Techno-economic and Environmental Assessment of Electric Vehicle Charging Stations in low-inertia Microgrids</strong></div>
+                  
+                    <div class="title"> <h3><strong>Techno-economic and Environmental Assessment of Electric Vehicle Charging Stations in Low-Inertia Microgrids</strong></h3></div>
                     <div class="details">
                       <ul>
-    <li>Proposed a comprehensive techno-economic and environmental assessment framework for microgrids integrating photovoltaic (PV) units, wind turbines (WTs), battery energy storage systems operated as virtual synchronous generators (BESS-VSGs), and electric vehicle charging stations (EVCSs). The study addressed the challenges of frequency instability and rising EV charging demand in renewable-rich microgrids by modeling VSG-based frequency support alongside renewable integration.</li>
-    
-    <li>Defined the objectives as minimizing the total net present cost (TNPC) and levelized cost of electricity (LCOE), reducing active power losses and frequency deviation, improving the voltage stability index, and lowering carbon emissions. The multi-dimensional objectives captured the techno-economic-environmental trade-offs inherent in optimal microgrid operation schemes.</li>
-    <li>Developed and implemented a novel Modified Multi-objective Salp Swarm Optimization Algorithm (MMOSSA), which enhances the exploration–exploitation balance through <i>Lévy flight</i> distribution and spiral logarithmic momentum. The optimization was carried out in <a href="https://www.mathworks.com/products/matlab.html" target="_blank"><b>MATLAB R2021b</b></a>, and validated across two real-world case studies: the 51-bus Masirah Island network in Oman and the 141-bus Ankara distribution network in Turkey.</li>
+     <li>Proposed a comprehensive techno-economic and environmental assessment framework for microgrids integrating solar energy, wind energy, energy storage systems operated as virtual synchronous generators, and electric vehicle charging stations.</li>
+   
+   
+     <li>Defined three conflicting objectives: (i) Economic—minimizing the total net present cost and the levelized cost of electricity; (ii) Technical—reducing active power losses and frequency deviation and improving the voltage stability index; and (iii) Environmental—lowering carbon emissions.</li>
+   
+   
+     <li>Developed and implemented the optimization framework in <a href="https://www.mathworks.com/products/matlab.html" target="_blank"><b>MATLAB R2021b</b></a>, and validated across two real-world case studies: the 51-bus Masirah Island network in Oman and the 141-bus Ankara distribution network in Turkey.</li>
     
     <!-- <li>Showed that the combined PV/WT/BESS-VSG configuration with optimally placed EVCS units provided the most cost-effective and sustainable outcomes. On Masirah Island, the framework delivered a TNPC of $261,030.9 and an LCOE of $0.0383/kWh, while in Ankara it achieved a TNPC of $303,840.5 and an LCOE of $0.0469/kWh. In both networks, the approach reduced carbon emissions by 88.8% and 87.3%, respectively, and significantly increased the renewable fraction (68.6% in Masirah and 78.2% in Ankara).</li> -->
     
@@ -289,7 +292,7 @@
 
   </div>
                     <div class="links">
-                        <a href="https://doi.org/10.1016/j.apenergy.2023.122028"class="see-more-btn">DOI</a>
+                        <a href="https://doi.org/10.1016/j.apenergy.2023.122028" class="see-more-btn">DOI</a>
                  
                     </div>
                 </div>
@@ -309,21 +312,21 @@
             </div>
             <div class="publication-content">
                 <div class="text-content">
-                    <!-- <h3><strong> Md. Shadman Abid</strong></h3> -->
-                    <div class="title"> <h3><strong>Stochastic Multi-objective Architecture for Strategic Integration of Distributed Energy Resources in Microgrids</strong></div>
+                  
+                    <div class="title"> <h3><strong>Stochastic Multi-objective Architecture for Strategic Integration of Distributed Energy Resources in Microgrids</strong></h3></div>
                     <div class="details">
                         <ul>
-    <li>Proposed a comprehensive multi-objective framework for optimal integration of renewable distributed generation (RDG) units—specifically photovoltaic (PV) and wind turbines (WTs)—with battery energy storage systems (BESSs). The framework was designed to enhance the voltage stability margin (VSM) of distribution networks while simultaneously reducing annualized costs, capturing the critical trade-offs of renewable-rich microgrid operation.</li>
-    
-    <li>Defined the objectives as (i) minimizing cumulative annual expenses of PV, WT, and BESS units, and (ii) maximizing system-wide VSM, thereby jointly improving network reliability and cost-effectiveness. Uncertainties in renewable output and load demand were explicitly incorporated using probability distributions derived from real-world weather and demand data.</li>
-    
-    <li>Developed and implemented the novel Multi-objective Artificial Hummingbird Algorithm (MOAHA), which integrates unique guided, territorial, and migratory foraging strategies with a non-dominated sorting (NDS) update and a dynamic elimination-based crowding distance (DECD) mechanism. The optimization framework was executed in <a href="https://www.mathworks.com/products/matlab.html" target="_blank"><b>MATLAB R2021b</b></a> and validated on the IEEE 33-bus, IEEE 69-bus, and Masirah Island (Oman) 51-bus distribution networks.</li>
+   <li>Proposed a comprehensive multi-objective framework for the optimal integration of battery energy storage systems (BESSs), photovoltaic (PV) systems, and wind turbines (WTs).</li> 
+   
+<li>Defined the conflicting objectives as (i) minimizing the cumulative annual expenses of PV, WT, and BESS units, and (ii) maximizing the system-wide voltage stability margin. Uncertainties in renewable output and load demand were explicitly incorporated using probability distribution functions. </li>
 
+  <li>Developed and implemented the framework <a href="https://www.mathworks.com/products/matlab.html" target="_blank"><b>MATLAB R2021b</b></a> and validated on the IEEE 33-bus, IEEE 69-bus, and Masirah Island (Oman) 51-bus distribution networks.</li>
+  
     <!-- <li>Contributed to sustainable microgrid planning by demonstrating how BESS integration with optimally placed RDGs can reduce annualized costs, mitigate renewable intermittency, improve stability margins, and support the transition toward low-carbon and resilient energy systems.</li> -->
 </ul>
   </div>
                     <div class="links">
-                        <a href="https://doi.org/10.1016/j.est.2023.108276"class="see-more-btn">DOI</a>
+                        <a href="https://doi.org/10.1016/j.est.2023.108276" class="see-more-btn">DOI</a>
                  
                     </div>
                 </div>
@@ -343,19 +346,17 @@
             </div>
             <div class="publication-content">
                 <div class="text-content">
-                    <!-- <h3><strong> Md. Shadman Abid</strong></h3> -->
-                    <div class="title"> <h3><strong>Optimal Planning of Renewable Energy-Integrated Distribution System with Uncertainties</strong></div>
+                    
+                    <div class="title"> <h3><strong>Optimal Planning of Renewable Energy-Integrated Distribution System with Uncertainties</strong></h3></div>
                     <div class="details">
 
 
                   <ul>
-    <li>Proposed a novel Artificial Hummingbird Algorithm (AHA)-based multi-objective optimization framework for strategic planning of renewable energy integration in distribution networks. The model focuses on optimal placement and sizing of photovoltaic (PV) units and wind turbines (WTs), while explicitly accounting for renewable resource uncertainty through Weibull distributions for wind speed, Beta distributions for solar irradiance, and normal distributions for baseload.</li>
     
-    
-    <li>Implemented the AHA-based optimization framework in <a href="https://www.mathworks.com/products/matlab.html" target="_blank"><b>MATLAB R2020a</b></a>, embedding the algorithm’s three unique foraging strategies—guided foraging, territorial foraging, and migration—for effective exploration and exploitation in the multi-objective search space.</li>
-    
-    <li>Validated the proposed approach on the IEEE 33-bus and IEEE 69-bus distribution networks, employing realistic solar irradiance, load, and wind speed datasets. The framework outperformed benchmark algorithms such as HHO-PSO and PPSOGSA, achieving substantial reductions in energy losses, improved voltage stability margins, and higher renewable hosting capacity .</li>
-    
+                    <li>Proposed a novel optimization framework using <a href="https://www.mathworks.com/products/matlab.html" target="_blank"><b>MATLAB R2020a</b></a> for the optimal placement and sizing of solar and wind plants.</li>
+    <li>Incorporated renewable-resource and demand uncertainty using Weibull distributions for wind speed, Beta distributions for solar irradiance, and normal distributions for load demand.</li>
+   
+    <li>Validated the proposed approach on the IEEE 33-bus and IEEE 69-bus distribution networks, employing realistic solar irradiance, load, and wind speed datasets.</li>
     <!-- <li>Supported national and global sustainability objectives by enabling cost-effective and reliable integration of PV and wind resources into large-scale distribution systems. The proposed AHA-based planning approach enhances renewable energy penetration, reduces dependence on fossil fuels, and contributes to long-term decarbonization and energy security goals.</li> -->
 </ul>
 
@@ -365,7 +366,7 @@
                 
                 </div>
                     <div class="links">
-                        <a href="https://ieeexplore.ieee.org/document/9757226"class="see-more-btn">DOI</a>
+                        <a href="https://ieeexplore.ieee.org/document/9757226" class="see-more-btn">DOI</a>
                  
                     </div>
                 </div>
@@ -382,17 +383,16 @@
             </div>
             <div class="publication-content">
                 <div class="text-content">
-                    <!-- <h3><strong> Md. Shadman Abid</strong></h3> -->
-                    <div class="title"> <h3><strong>Electric Vehicle Integration in Bangladeshi Residential Distribution Grid</strong></div>
+
+                    <div class="title"> <h3><strong>Electric Vehicle Integration in Bangladeshi Residential Distribution Grid</strong></h3></div>
                     <div class="details">
                    <ul>
-    <li>Proposed a stochastic analysis framework for assessing the impact of large-scale electric vehicle (EV) integration in urban distribution networks, where Monte Carlo simulation-based probabilistic load flow was employed to capture uncertainties in EV penetration, charging demand, seasonal load variation, and user commuting behavior. Stochastic variations in EV trip purposes, departure/arrival times, and charging patterns were incorporated using real-world transport and demand data from Dhaka city.</li>
-    
+   <li>Proposed a Monte Carlo–based probabilistic load-flow framework for Bangladesh’s distribution grid to quantify uncertainty from EV adoption.</li>
     
 
-   <li>Validated the proposed approach on three real residential feeders in Dhaka (representing high-, middle-, and low-income neighborhoods) under seasonal load conditions and two EV penetration levels (20% and 30%). The feeder and load data were collected from the <a href="https://en.wikipedia.org/wiki/Dhaka_Power_Distribution_Company" target="_blank"><b>Dhaka Power Distribution Company (DPDC)</b></a> and complemented with transport and commuting information from the <a href="https://openjicareport.jica.go.jp/pdf/12268272_01.pdf" target="_blank"><b>Japan International Cooperation Agency (JICA) & Dhaka Transport Coordination Authority (DTCA) — Strategic Transport Plan for Dhaka</b></a>.</li>
+   <li>Validated on three Dhaka residential feeders (high, middle, and low-income) under seasonal demand and 20–30% EV penetration scenarios. The feeder and load data were collected from the <a href="https://en.wikipedia.org/wiki/Dhaka_Power_Distribution_Company" target="_blank"><b>Dhaka Power Distribution Company (DPDC)</b></a> and complemented with transport and commuting information from the <a href="https://openjicareport.jica.go.jp/pdf/12268272_01.pdf" target="_blank"><b>Japan International Cooperation Agency (JICA) & Dhaka Transport Coordination Authority (DTCA) — Strategic Transport Plan for Dhaka</b></a>.</li>
 
-  <li>Developed an optimal charging coordination strategy using the Slime Mould Algorithm (SMA), implemented in <a href="https://www.mathworks.com/products/matlab.html" target="_blank"><b>MATLAB R2020a</b></a>. The SMA balanced exploration–exploitation through oscillatory feedback to assign charging loads optimally across feeders, thereby mitigating voltage violations and enhancing EV hosting capacity. Results showed that uncoordinated charging caused widespread voltage violations (up to 86.3% of buses in low-income areas), while the SMA-based strategy reduced energy losses, improved VSM, and increased sustainable EV penetration by ~19%.</li>
+  <li>Designed an optimal EV-charging coordination strategy in <a href="https://www.mathworks.com/products/matlab.html" target="_blank"><b>MATLAB R2020a</b></a>.  Results showed that uncoordinated charging caused widespread voltage violations (up to 86.3% of buses in low-income areas), while our strategy reduced energy losses, improved voltage stability, and increased sustainable EV penetration by 19%.</li>
     
 
     <!-- <li>Contributed to sustainable energy–transport integration by demonstrating how stochastic modeling and intelligent charging coordination can mitigate technical challenges of EV adoption in emerging economies. The framework supports reliable grid operation, reduces carbon emissions, and aligns with Bangladesh’s climate and electrification goals.</li> -->
@@ -401,7 +401,7 @@
             </div>
                     <div class="links">
                         <!-- <a href="#" data-toggle="modal" data-target="#modal1">View Publication</a>  -->
-                        <a href="https://doi.org/10.1016/j.aej.2022.09.022"class="see-more-btn">DOI</a>
+                        <a href="https://doi.org/10.1016/j.aej.2022.09.022" class="see-more-btn">DOI</a>
                     </div>
                 </div>
                 <!-- <div class="container-image"> -->
@@ -420,16 +420,14 @@
           
             <div class="publication-content">
                 <div class="text-content">
-                    <!-- <h3><strong> Md. Shadman Abid</strong></h3> -->
-                    <div class="title"> <h3><strong>Optimal Load-Shedding in Distribution System</strong></div>
+                    
+                    <div class="title"> <h3><strong>Optimal Load-Shedding in Distribution System</strong></h3></div>
                     <div class="details">
                       <ul>
-    <li>Proposed an advanced Chaotic Slime Mould Algorithm (CSMA) for optimal load-shedding in distribution networks with distributed generation (DG). The framework integrates a sinusoidal chaotic map into the original SMA to enhance global search capability, accelerate convergence, and avoid premature stagnation in local optima, thereby improving the efficiency of load-shedding decisions under emergency islanding scenarios.</li>
+    <li>Proposed an advanced optimization technique for optimal load-shedding in renewable-integrated distribution networks subject to islanding conditions.</li>
     
-    <li>Defined the core objectives as maximizing the remaining load supplied after shedding, while simultaneously minimizing active power losses and improving the Voltage Stability Margin (VSM). The problem formulation incorporated operational constraints including real and reactive power balance, bus voltage limits, line thermal limits, and prioritized load curtailment.</li>
-    
-    <li>Implemented the CSMA-based optimization model in <a href="https://www.mathworks.com/products/matlab.html" target="_blank"><b>MATLAB R2020a</b></a>, where the sinusoidal chaos mechanism was embedded within the SMA’s position-update function to improve exploration–exploitation balance. Extensive simulations were conducted on the IEEE 33-bus and IEEE 69-bus radial distribution networks across three distinct islanding scenarios.</li>
-    
+    <li>Defined the core objectives as maximizing the remaining load supplied after shedding, while simultaneously minimizing active power losses and improving voltage stability.</li>
+   <li>Implemented the optimization model in <a href='https://www.mathworks.com/products/matlab.html' target='_blank'><b>MATLAB R2020a</b></a> and conducted extensive simulations on the IEEE 33-bus and IEEE 69-bus radial distribution networks across three distinct islanding scenarios.</li> 
     <!-- <li>Validated performance against baseline algorithms—Backtracking Search Algorithm (BSA) and the original SMA—using 30 independent runs per test system. Results demonstrated that CSMA consistently achieved higher fitness values, larger preserved loads (e.g., 0.824 MW in Island-1 versus 0.822 MW for BSA), improved VSM (up to 0.9334 compared to 0.9308 for SMA and 0.9250 for BSA), and faster convergence times, particularly in larger distribution networks.</li> -->
     
     <!-- <li>Advanced the pursuit of sustainable power system operation by providing a computationally efficient and reliable load-shedding optimization method. The CSMA framework enhances resilience in DG-integrated microgrids, mitigates frequency and voltage instability risks, reduces unnecessary load curtailment, and supports long-term decarbonization and grid sustainability goals .</li> -->
@@ -438,7 +436,7 @@
                     
                     </div>
                     <div class="links">
-                        <a href="https://doi.org/10.1016/j.asej.2021.101659"class="see-more-btn">DOI</a>
+                        <a href="https://doi.org/10.1016/j.asej.2021.101659" class="see-more-btn">DOI</a>
                  
                     </div>
                 </div>
@@ -458,21 +456,19 @@
             </div>
             <div class="publication-content">
                 <div class="text-content">
-                    <!-- <h3><strong> Md. Shadman Abid</strong></h3> -->
-                    <div class="title"> <h3><strong>Transient Stability Assessment of the Oman Grid under Large Penetration of Photovoltaic and Wind Energy Systems</strong></div>
+                    
+                    <div class="title"> <h3><strong>Transient Stability Assessment of the Oman Grid under Large Penetration of Photovoltaic and Wind Energy Systems</strong></h3></div>
                     <div class="details">
                     <ul>
-    <li>Analyzed the stability challenges of Oman’s Main Interconnected System (MIS) under high renewable penetration, aligned with the national development roadmap (500 MW Ibri II Solar IPP in 2021, 1,000 MW Manah Solar by 2025, 500 MW Ibri III by 2026, 500 MW A’Kamil Solar by 2027, and multiple wind projects totaling 600 MW between 2026–2027). </li>
+    <li>Analyzed the stability challenges of Oman’s main interconnected system under high renewable penetration, aligned with the national development roadmap (500 MW Ibri II Solar IPP in 2021, 1,000 MW Manah Solar by 2025, 500 MW Ibri III by 2026, 500 MW A’Kamil Solar by 2027, and multiple wind projects totaling 600 MW between 2026–2027). </li>
     
-    <li>Proposed and validated Virtual Inertia Systems (VISs) integrated with battery energy storage, optimized via a swarm-based optimization algorithm in <a href="https://www.mathworks.com/products/matlab.html" target="_blank"><b>MATLAB R2021b</b></a> and <a href="https://www.digsilent.de/en/powerfactory.html" target="_blank"><b>DIgSILENT PowerFactory</b></a>. Case studies on the 2027 MIS grid showed that VIS deployment reduced frequency deviations, improved voltage stability, and provided cost-effective, resilient operation under load disturbances and PV output fluctuations. </li>
+    <li>Proposed and validated virtual inertia systems integrated with battery energy storage, optimized via a swarm-based optimization algorithm in <a href="https://www.mathworks.com/products/matlab.html" target="_blank"><b>MATLAB R2021b</b></a> and <a href="https://www.digsilent.de/en/powerfactory.html" target="_blank"><b>DIgSILENT PowerFactory</b></a>. 
+        </li>
 </ul>
 
 
                 </div>
-                    <div class="links">
-                        <!-- <a href="#" data-toggle="modal" data-target="#modal1">View Publication</a>  -->
-                        <!-- <a href="https://doi.org/10.1016/j.aej.2022.09.022"class="see-more-btn">DOI</a> -->
-                    </div>
+                    
                 </div>
                 <!-- <div class="container-image"> -->
                     <!-- <img src="assets/img/els32.jpg" alt="Publication Image" class="publication-image"> -->
@@ -487,20 +483,22 @@
             </div>
             <div class="publication-content">
                 <div class="text-content">
-                    <!-- <h3><strong> Md. Shadman Abid</strong></h3> -->
-                    <div class="title"> <h3><strong>Designing a Virtual Inertia Controller for the PDO Power System</strong></div>
+                    
+                    <div class="title"> <h3><strong>Designing a Virtual Inertia Controller for the PDO Power System</strong></h3></div>
                     <div class="details">
                     <ul>
-    <li>Addressed low-inertia stability issues in the PDO grid under 400 MW (2026) and 600 MW (2030) renewable penetration by designing Virtual Inertia Systems (VISs) with battery energy storage. </li>
+    <li>Addressed low-inertia stability issues in the PDO grid under 400 MW (2026) and 600 MW (2030) renewable penetration by designing virtual inertia systems with battery energy storage. </li>
 
-    <li>Implemented the simulations in <a href="https://www.mathworks.com/products/matlab.html" target="_blank"><b>MATLAB R2021b</b></a> and <a href="https://www.digsilent.de/en/powerfactory.html" target="_blank"><b>DIgSILENT PowerFactory</b></a>, and optimized their size and placement using swarm-based optimization, achieving trade-offs between frequency stability, voltage support, and cost. The project provides a techno-economic roadmap for PDO to select between cost-effective, balanced, or performance-focused VIS investment strategies for 2026 and 2030.</li>
+  <li>Implemented the simulations in <a href="https://www.mathworks.com/products/matlab.html" target="_blank"><b>MATLAB R2021b</b></a> and <a href="https://www.digsilent.de/en/powerfactory.html" target="_blank"><b>DIgSILENT PowerFactory</b></a>, and optimized the size and placement of the inertia systems. The project provides a techno-economic roadmap for PDO’s 2026 and 2030 grid models.</li>
 </ul>
 
 
-            </div>
-                    </div>
-                </div> 
-               
+             </div>
+                    
+                </div>
+                <!-- <div class="container-image"> -->
+                    <!-- <img src="assets/img/els32.jpg" alt="Publication Image" class="publication-image"> -->
+                <!-- </div> -->
             </div>
         </div>
 
